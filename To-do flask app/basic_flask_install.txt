@@ -1,0 +1,35 @@
+first got to terminal and make sure you wrute this commamd in vs code new terminal
+
+step 1 : pip install virtualenv
+
+step 2 : make a new env by just writing this command   -  virtualenv env
+
+
+pip install flask
+
+
+
+next after launching the code to deployment 
+
+1. heroku
+2. heroku login
+3. git init
+4. git add .
+5. git commit -m "Initial commit"
+6. heroku create <name of app>
+7. git remote -v
+8. git push heroku master
+
+if any errors  check logs
+
+heroku logs --name of log
+
+
+if any edits in ypur application in future then you should 
+
+1. git add.
+2. git commiot -m "something"
+3. git push heroku master
+
+
+name of website --> https://to-do-rakesh-app.herokuapp.com/
