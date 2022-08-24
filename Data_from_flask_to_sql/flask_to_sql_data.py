@@ -46,6 +46,7 @@ def delete():
         print("The data is deleted  successfully")
         return jsonify(str("data is deleted into database successfuly"))   ## you can see in the postman
 
+## fetch data 
 
 @app.route("/fetch_data",methods=["POST","GET"])
 def fetch_data():
