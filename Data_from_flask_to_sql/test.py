@@ -2,7 +2,7 @@ from flask import Flask,request,jsonify
 
 app = Flask(__name__)
 
-# app.config['sql_data_base'] = 'mysql://root:Rakesh@12345678@localhost:3307/task_ineuron'
+# app.config['sql_data_base'] = 'mysql://root:Rakesh@12345678@localhost:3307/db_name'
 
 @app.route('/abc',methods=['POST','GET'])
 def add():
